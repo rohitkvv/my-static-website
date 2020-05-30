@@ -103,16 +103,11 @@ h2 {
     text-align: center;
 }
 
+.account {
+    color: white;
+    margin: 60px 0 20px;
+}
+
 .row {
     margin-bottom: 20px;
-}
-
-.accordian {
-    border: 2px solid rgb(8, 128, 226);
-    border-radius: 8px;
-    background-color: rgb(8, 128, 226);
-}
-
-.accordian h2 {
-    color: white;
 }
