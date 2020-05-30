@@ -1,6 +1,7 @@
 html,
 body,
-.cover {
+.cover,
+.project-cover {
     height: 100%;
 }
 
@@ -50,8 +51,11 @@ h2 {
     margin: 0 0 60px;
 }
 
-#technical-skillset {
+#tech-stack {
     background: url('../images/fan.jpg') top left no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
     background-size: cover;
     color: white;
     text-align: center;
@@ -62,4 +66,53 @@ h2 {
     height: 120px;
     width: 120px;
     margin-bottom: 20px;
+}
+
+.project-cover {
+    background: url('../images/DSC_0006.jpg') left top no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    display: table;
+    width: 100%;
+    padding: 0 20%;
+    box-shadow: inset 0 0 100px #000;
+}
+
+.project-cover__text {
+    text-align: center;
+    display: table-cell;
+    color: white;
+    vertical-align: middle;
+}
+
+.project-cover__text h1 {
+    margin: 0;
+    font-size: 70px;
+    letter-spacing: -3px;
+}
+
+#projects {
+    background: url('../images/fan.jpg') top left no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    /* color: white; */
+    text-align: center;
+}
+
+.row {
+    margin-bottom: 20px;
+}
+
+.accordian {
+    border: 2px solid rgb(8, 128, 226);
+    border-radius: 8px;
+    background-color: rgb(8, 128, 226);
+}
+
+.accordian h2 {
+    color: white;
 }
