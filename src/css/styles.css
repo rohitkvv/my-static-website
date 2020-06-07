@@ -51,6 +51,18 @@ h2 {
     margin: 0 0 60px;
 }
 
+.down-button{
+    width: 30px;
+    height: 30px;
+    fill: white;
+}
+.go-to-techStack{
+    border-radius: 100%;
+    text-align: center;
+    margin: 0 50%;
+    margin-top: -10px;
+}
+
 #tech-stack {
     background: url('../images/fan.jpg') top left no-repeat;
     -webkit-background-size: cover;
@@ -179,6 +191,7 @@ h2 {
     border: 2px solid rgb(236, 200, 54);
     border-top-right-radius: 100%;
     padding: 5px;
+    padding-top: 20px;
 }
 
 .contact-img{
@@ -186,4 +199,54 @@ h2 {
     height: 50px;
     border-radius: 100%;
     margin-top: 20px;
+}
+
+/* Media Queries */
+
+@media only screen and ( max-width : 568px ) {
+    .cover h1,
+    .project-cover h1,
+    .blog-cover h1 {
+        font-size: 40px;
+    }
+    section {
+        padding: 20px;
+    }
+    .col-sm-6 {
+        margin-top: 20px;
+    }
+
+    .blog-image{
+        max-width: 300px;
+        max-height: 300px;
+        margin: 0 15%;
+        border-radius: 2px;
+    }
+
+    .contact-cover {
+        padding: 40% 30%;
+    }
+
+    .contact-header {
+        padding-right: 80px;
+    }
+}
+
+@media only screen and ( min-width : 580px ) and ( max-width : 1206px ) {
+    .blog-image{
+        max-width: 300px;
+        max-height: 300px;
+        margin: 0 50%;
+        border-radius: 2px;
+    }
+}
+
+@media only screen and ( max-width : 1209px ) {
+    .contact-cover {
+        padding: 46% 30%;
+    }
+
+    .contact-header {
+        padding-right: 80px;
+    }
 }
